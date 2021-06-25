@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<html lang="en">
+   <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Welcome to - Virtual House</title>
+      <!-- Custom styles for this template -->
+      <link href="https://intensebd.com/vh/themes/front/new_images/landing-blade.css" rel="stylesheet">
+      <link href="https://intensebd.com/vh/themes/front/new_images/all.css" rel="stylesheet">
+      <link href="https://intensebd.com/vh/themes/front/new_images/main.css" rel="stylesheet">
+      <link href="https://intensebd.com/vh/themes/front/new_images/css" rel="stylesheet" type="text/css">
+      <link href="https://intensebd.com/vh/themes/front/new_images/css(1)" rel="stylesheet" type="text/css">
+      <style>
+        #front-image-overlay {
+            position: absolute;
+            width: 1024px;
+            height: 600px;
+            left: 25px;
+            top: 25px;
+            opacity: 0.90;
+            z-index: 999 !important;
+            background: url(https://intensebd.com/vh/themes/front/images/tutorial-background.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            border-radius: 4px;
+            display: none;
+            left: 50%;
+            margin-left: -512px;
+        }
+        /*#front-image-overlay-header {*/
+        /*    margin-left: 26%;*/
+        /*    margin-right: 33%;*/
+        /*    margin-top: 7%;*/
+        /*    height: 18%;*/
+        /*    text-align: center;*/
+        /*    overflow: hidden;*/
+        /*}*/
+        #front-image-overlay-body {
+            margin-left: 3%;
+            margin-right: 3%;
+            margin-top: 3.8%;
+            height: 85%;
+            overflow: hidden;
+        }
+        
+        #plus-minus-btn-wrap {
+            position: fixed;
+            display: block;
+            z-index: 99;
+            width: 140px;
+            left: 33%;
+            margin-left: -70px;
+            top: 24%;
+            margin-top: -31px;
+            height: 62px;
+        }        
+        #plus-minus-btn-wrap .btn-group .btn {
+            font-size: 48px;
+            font-weight: 900;
+            line-height: 1;
+            padding: 5px 20px;
+        }
+        @media only screen and (max-width: 1365px){
+            #front-image-overlay {
+                width: 800px;
+                height: 450px;
+                margin-left: -400px;
+            }
+        }
+        @media only screen and (max-width: 991px){
+            #front-image-overlay {
+                width: 600px;
+                height: 450px;
+                margin-left: -300px;
+            }            
+        }
+        .custom_tultip .popover{
+            left: 50% !important;
+            width: 260px;
+            margin-left: -130px;
+            top: 0px;
+            
+        }
+        .custom_tultip .popover .arrow{
+            left: 50% !important;
+            margin-left: -20px;
+        }
+        
+        
+        
+        
+        
+        .colRatioAction{
+            /*position: relative;*/
+            width: 50%;
+                padding-left: 80px;
+        }
+        .colRatioAction a{
+            cursor: pointer;
+            /*position: absolute;*/
+            /*top: 48px;*/
+            /*left: 0;*/
+        }
+        .colRatioAction:first-child{
+            text-align:right;
+            padding-right: 80px;
+        }
+        .colRatioContainer{
+            position: absolute;
+            bottom: 4%;
+            /*background: green;*/
+            z-index: 99999999999;
+            height: 79px;
+            width: 100%;
+        }
+      </style>
+   </head>
+   
+   <body class="html_en" data-spy="scroll" data-offset="0" data-target="#navigation">
+       <!--<div id="plus-minus-btn-wrap">-->
+       <!--    <div class="btn-group">-->
+               <!--<img src="< ?=base_url()?>house-images/zoom.png" style="max-width: 100%">-->
+       <!--        <button class="btn btn-xl btn-success" id="zoom-in">+</button>-->
+       <!--        <button class="btn btn-xl btn-danger" id="zoom-out">-</button>-->
+       <!--    </div>-->
+       <!--</div>-->
+      <div id="app">
+         <div id="navigation" style="height: 14%;" class="navbar navbar-default navbar-fixed-bottom gradient-footer">
+            <div style="margin-top: 80px;">
+               All Rights reserved • Service Hub by Total Mizers Ltd. Toronto, Ontario CANADA (416) 333.FAST (3278)<br>Copyright © 2016 - 2019&nbsp;&nbsp; Les The Handyman
+            </div>
+            <div class="row justify-content-md-center">
+               <div style="background: transparent;*position: absolute;margin-top: -19rem;z-index: 9999;" class="col-xs-12 col-xs-offset-2">
+                  <div data-toggle="popover" data-placement="top" data-trigger="hover" data-content="This is the Language you are viewing now. ENGLISH." class="col-xs-1" data-original-title="" title="">
+                     <a href="https://intensebd.com/vh/virtual_house/index1/uk"><img src="https://intensebd.com/vh/themes/front/new_images/flag-en-lg.png" style="max-width: 100%"></a>
+                     <h1 style="margin-top: -65px; font-size: 26px;">English</h1>
+                  </div>
+                  <div data-toggle="popover" data-placement="top" data-trigger="hover" data-content="Sie können die deutschen + österreichischen virtuellen Häuser in Englisch oder Deutsch anzeigen." class="col-xs-1" data-original-title="" title="">
+                     <a href="https://intensebd.com/vh/virtual_house/index1/de"><img src="https://intensebd.com/vh/themes/front/new_images/flag-de-sm.png" style="max-width: 80%"></a>
+                      <h1 style="margin-top: -50px; font-size: 26px;">Deutsch</h1>
+                  </div>
+                  <div data-toggle="popover" data-placement="top" data-trigger="hover" data-content="Kiválaszthatja a magyar nyelvet, de csak a magyarországi virtuális házakat fogja látni." class="col-xs-1" data-original-title="" title="">
+                     <a href="https://intensebd.com/vh/virtual_house/index1/hu"><img src="https://intensebd.com/vh/themes/front/new_images/flag-hu-sm.png" style="max-width: 80%"></a>
+                     <h1 style="margin-top: -50px; font-size: 26px;">Magyar</h1>
+                  </div>
+                  
+                  
+         
+                  
+                  <div data-toggle="popover" data-placement="top" data-trigger="hover" data-content="See the video on how this system works.  It is Free for Customers and Businesses to use.  We make our money on the sale of on-line Appoinment Systems." class="col-xs-2" data-original-title="" title="">
+                     <!--<a href=""><img src="themes/front/new_images/silent-video.png" style="max-width: 100%"></a>-->
+                     <a class="init-tut" id="init-tut" style="cursor:pointer"><img src="https://intensebd.com/vh/themes/front/new_images/silent-video.png" style="max-width: 100%"></a>
+                  </div>
+
+           
+     
+
+                  <div data-toggle="popover" data-placement="top" data-trigger="hover" data-content="Sign in here with your email address and password." class="col-xs-1" data-original-title="" title="">
+                     <a href="https://intensebd.com/vh/virtual_house/index1"><img src="https://intensebd.com/vh/themes/front/new_images/sign-in.png" style="max-width: 100%"></a>
+                  </div>
+                  <div data-toggle="popover" data-placement="top" data-trigger="hover" data-content="Register as a customer or a business.  It is free and no financial information will be asked.  Your personal information will not be sold to any Third party." class="col-xs-1" data-original-title="" title="">
+                     <a href="https://intensebd.com/vh/virtual_house/index1"><img src="https://intensebd.com/vh/themes/front/new_images/register.png" style="max-width: 100%"></a>
+                  </div>
+                  <div data-toggle="popover" data-placement="top" data-trigger="hover" data-content="Join Our system by managing your own Virtual house. Those who are approved, get a free Franchise to manage." class="col-xs-1" data-original-title="" title=""><a href="https://intensebd.com/vh/virtual_house/index1"><img src="https://intensebd.com/vh/themes/front/new_images/join-us.png" style="max-width: 100%"></a></div>
+               </div>
+            </div>
+         </div>
+         
+         
+<div class="colRatioContainer">
+    <div class="col-xs-2 colRatioAction" >
+        <a class="init-tut" id="zoom-in"  data-toggle="popover" data-placement="right" data-trigger="hover" data-content="Make your screen bigger"  style="cursor:pointer"><img src="https://intensebd.com/vh/themes/front/new_images/plus-png.png" style="max-width: 70px"></a>
+    </div>  
+    <div class="col-xs-2 colRatioAction" >
+        <a class="init-tut" id="zoom-out" style="cursor:pointer" data-toggle="popover" data-placement="left" data-trigger="hover" data-content="Make your screen smaller" ><img src="https://intensebd.com/vh/themes/front/new_images/minus-png.png" style="max-width: 70px"></a>
+    </div>
+</div>
+         
+         <div style="background: transparent;position: absolute;bottom: 80px; text-align: center;" class="col-xs-12">
+            <img id="map-map" src="https://intensebd.com/vh/themes/front/new_images/globe-usa-europe.png" style="/*display: block;margin-left: auto;margin-right: auto;max-width: 100%;*/" alt="" usemap="#Map"> 
+            <map name="Map" id="Map" class="custom_tultip">
+               <area alt="Map Canada" title="" href="https://intensebd.com/vh/virtual_house/index1/ca" shape="poly" coords="89, 72, 133, 172, 214, 143, 193, 88, 211, 64, 205, 29, 146, 31, 101, 51" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="See the Virtual House in Toront." data-original-title="Canada">
+               <area alt="Map USA"    title="" href="https://intensebd.com/vh/virtual_house/index1/us" shape="poly" coords="76, 89, 41, 143, 44, 169, 69, 208, 97, 237, 116, 199, 133, 172, 88, 80" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="See the virtual house in Queens, New York. Our First Virtual House in the U.S.A." data-original-title="USA">
+               <area alt="Map Europe" title="" href="https://intensebd.com/vh/virtual_house/index1/eu" shape="poly" coords="323, 22, 314, 44, 320, 116, 356, 182, 402, 140, 449, 148, 455, 116, 397, 52, 346, 26" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="See the  Virtual Houses in Europe." data-original-title="Europe">
+            </map>
+         </div>
+         <div style="background: transparent;position:absolute;bottom: 500px;" class="col-xs-12">
+             <a href="https://intensebd.com/vh/virtual_house/test_house">
+                 <img src="https://intensebd.com/vh/themes/front/new_images/home-vr-iccon.png" style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Try it." data-original-title="" title="">
+            </a>
+        </div>
+            <div style="background: transparent;position: absolute;bottom: 100px;" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="About us, references, contact information and we welcome business deals." class="col-xs-12" data-original-title="" title="">
+                <a href="https://intensebd.com/vh/virtual_house/contact">
+                    <!--<img src="themes/front/new_images/leslie/.JPG" style="display: block;margin-left: auto;margin-right: auto;z-index:100;max-width: 100%;">-->
+                    <img src="https://intensebd.com/vh/themes/front/new_images/leslie.png" style="display: block;margin-left: auto;margin-right: auto;z-index:100;max-width: 100%;">
+                </a>
+            </div>
+      </div>
+            <div id="front-image-overlay" class="bg-white">
+                <div id="front-image-overlay-body">
+                    
+                </div>
+            </div>
+      <script type="text/javascript" src="https://intensebd.com/vh/themes/front/vendor/jquery/jquery-3.3.1.min.js"></script>
+      <!--<script src="themes/front/new_images/app.js"></script>-->
+      <script src="https://intensebd.com/vh/themes/front/new_images/bootstrap.min.js"></script>
+      <script type="text/javascript">
+         $(function () {
+            $('[data-toggle="popover"]').popover()
+         })
+         /*
+         $(document).mousemove( function(e) {    
+         var mouseX = e.pageX - $('#map-map').offset().left - 40;
+         var mouseY = e.pageY - $('#map-map').offset().top + 20;
+         $('.popover').css({'top':mouseY,'left':mouseX}).fadeIn('slow');
+         }); 
+         */ 
+         var zoom = 1;
+        $(document).on('click', '#zoom-in', function(){
+            // e = $.Event('keydown');
+            // e.ctrlKey = true;
+            // e.which = 107;
+            // e.key = "+";
+            // e.keyCode = 107;
+            // e.target = document.body;
+            // e.currentTarget = window;
+            // console.log(e)
+            // $(window).trigger(e);
+            zoom += 0.1;
+            $('#app').css('zoom', zoom);
+        });
+        $(document).on('click', '#zoom-out', function(){
+            // e = $.Event('onkeydown');
+            // e.ctrlKey = true;
+            // e.which = 107;
+            // console.log(e)
+            // $(document).trigger(e);
+            zoom -= 0.1;
+            $('#app').css('zoom', zoom);
+        });
+        
+        $(document).on('click', '#init-tut', function(e){
+            // var title = '<h1 style="color:red">How To Use This Site!</h1>';
+            var content = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/5Nu2-nLPQHo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+            // $('#front-image-overlay-header').html(title);
+            $('#front-image-overlay-body').html(content);
+            $('#front-image-overlay').show();
+        });
+      </script>
+   </body>
+</html>
